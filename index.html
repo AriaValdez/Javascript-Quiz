@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Slogan quiz</title>
+<style>
+body {
+background-image:url("images/times.jpg");
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image:url("images/slogan.jpg");
+color: white;
+background-size: cover;
+}
+
+label {
+display: block;
+margin: 30px;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+margin-top: 20px;
+text-align:center;
+  color: #7D6CF9;
+}
+
+.image{
+width:30%;
+margin-left: 60px;
+}
+
+fieldset {
+	overflow: hidden;
+	width: 95%;
+	position: relative;
+	border: 4px solid black;
+	padding: 10px;
+	border-radius: 20px;
+	border-color: #7D6CF9;
+	max-width: 100%;
+	margin: auto;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid #7D6CF9;
+    color: #7D6CF9;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    margin-left:150px;
+     margin-top:70px;
+     margin-bottom:30px;
+}
+
+.button:hover {
+    background-color: #7D6CF9;
+    color: white;
+}
+
+</style>
+
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+
+</div>
+<form id="form1">
+<fieldset>
+<table>
+<tr>
+	<td>
+
+<img src="images/mc.jpeg" alt="Mc Donalds logo" class="image" />
+<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Eat Fresh</label>
+<label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />Just do it</label>
+<label for="var_info"><input type="radio" name="variable" value="10" id="var_info" />I'm loving it</label>
+<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Is it in you.</label>
+<label for="var_here"><input type="radio" name="variable"  value="0" id="var_here" />Have it your way</label>
+
+</td>
+
+
+<td>
+
+<img src="images/sub.jpg" alt="Subway logo" class="image" />
+<label for="sub_string"><input type="radio" name="sub" value="10" id="sub_string"/>Eat Fresh</label>
+<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Just do it</label>
+<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Have it your way</label>
+<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Is it in you</label>
+<label for="sub_here"><input type="radio" name="sub"  value="0" id="sub_here" />I'm loving it</label>
+
+</td>
+</tr>
+
+<tr>
+	<td>
+<img src="images/nike.png" alt="Nike logo" class="image" />
+<label for="cat_string"><input type="radio" name="cat" value="0" id="cat_string" />Think different</label>
+<label for="cat_join"><input type="radio" name="cat" value="10" id="cat_join" />Just do it</label>
+<label for="cat_here"><input type="radio" name="cat"  value="0" id="cat_here" />Eat fresh</label>
+<label for="cat_info"><input type="radio" name="cat" value="0" id="cat_info" />Have it your way</label>
+<label for="cat_condition"><input type="radio" name="cat" value="0" id="cat_condition" /> I'm loving it</label>
+
+</td>
+
+
+<td>
+
+<img src="images/bk.png" alt="Burger King logo" class="image" />
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Betcha Can't Eat Just One</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Think different</label>
+<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Melts in Your Mouth, Not in Your Hands</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="10" id="if_condition" />Have it your way</label>
+<label for="if_here"><input type="radio" name="ifstate"  value="0" id="if_here" />Eat Fresh</label>
+
+</td>
+</tr>
+
+<tr>
+	<td>
+
+<img src="images/apple.jpg" alt="Apple logo " class="image" />
+<label for="this_string"><input type="radio" name="here" value="0" id="this_string" />Have it your way</label>
+<label for="this_join"><input type="radio" name="here" value="0" id="this_join" />Melts in Your Mouth, Not in Your Hands</label>
+<label for="this_info"><input type="radio" name="here" value="0" id="this_info" />Just do it</label>
+<label for="this_here"><input type="radio" name="here"  value="10" id="this_here" />Think different</label>
+<label for="this_condition"><input type="radio" name="here"  value="0" id="this_condition" />Eat Fresh</label>
+</td>
+<td>
+
+
+<img src="images/loreal.png" alt="Loreal logo " class="image" />
+<label for="why_string"><input type="radio" name="why" value="0" id="why_string" />Eat Fresh</label>
+<label for="why_join"><input type="radio" name="why" value="0" id="why_join" />Just do it</label>
+<label for="why_info"><input type="radio" name="why" value="10" id="why_info" />Because you're worth it</label>
+<label for="why_condition"><input type="radio" name="why" value="0" id="why_condition"/>Melts in Your Mouth, Not in Your Hands</label>
+<label for="why_here"><input type="radio" name="why"  value="0" id="why_here" />Have it your way</label>
+</td>
+</tr>
+
+<tr>
+	<td>
+<img src="images/mm.jpg" alt="M&Ms logo " class="image" />
+<label for="pop_string"><input type="radio" name="pop" value="10" id="pop_string"/>Melts in Your Mouth, Not in Your Hands</label>
+<label for="pop_join"><input type="radio" name="pop" value="0" id="pop_join"/>Just do it</label>
+<label for="pop_info"><input type="radio" name="pop" value="0" id="pop_info" />Have it your way</label>
+<label for="pop_condition"><input type="radio" name="pop" value="0" id="pop_condition" />Betcha Can't Eat Just One</label>
+<label for="pop_here"><input type="radio" name="pop"  value="0" id="pop_here" />I'm loving it</label>
+	</td>
+
+<td>
+<img src="images/lays.png" alt="Lays logo " class="image" />
+<label for="lol_string"><input type="radio" name="lol" value="0" id="lol_string" />Just do it</label>
+<label for="lol_join"><input type="radio" name="lol" value="10" id="lol_join" />Betcha Can't Eat Just One</label>
+<label for="lol_here"><input type="radio" name="lol"  value="0" id="lol_here" />Eat fresh</label>
+<label for="lol_info"><input type="radio" name="lol" value="0" id="lol_info" />Have it your way</label>
+<label for="lol_condition"><input type="radio" name="lol" value="0" id="lol_condition" /> I'm loving it</label>
+</td>
+	</tr>
+
+
+<tr>
+	<td>
+<img src="images/cg.gif" alt="Covergirl logo " class="image" />
+<label for="sure_string"><input type="radio" name="sure" value="0" id="sure_string" />I'm loving it</label>
+<label for="sure_join"><input type="radio" name="sure" value="0" id="sure_join" />Melts in Your Mouth, Not in Your Hands</label>
+<label for="sure_info"><input type="radio" name="sure" value="0" id="sure_info" />Think different</label>
+<label for="sure_condition"><input type="radio" name="sure"  value="10" id="sure_condition" />Easy, breezy, beautiful</label>
+<label for="sure_here"><input type="radio" name="sure"  value="0" id="sure_here" />Betcha Can't Eat Just One</label>
+</td>
+
+<td>
+
+<img src="images/gator.png" alt="Gatorade logo " class="image" />
+<label for="ok_string"><input type="radio" name="ok" value="0" id="ok_string" />Easy, breezy, beautiful</label>
+<label for="ok_join"><input type="radio" name="ok" value="0" id="ok_join" />Melts in Your Mouth, Not in Your Hands</label>
+<label for="ok_info"><input type="radio" name="ok" value="0" id="ok_info" />Betcha Can't Eat Just One</label>
+<label for="ok_here"><input type="radio" name="ok"  value="10" id="ok_here" />Is it in you</label>
+<label for="ok_condition"><input type="radio" name="ok"  value="0" id="ok_condition" />Think different</label>
+</td>
+</tr>
+</table>
+
+<button type="submit" value="Submit" class="button" >Hit me with the truth!</button>
+<button type="reset" value="Reset" class="button">Reset</button>
+
+    
+<h2>Your grade is: <span id="grade">__</span></h2>
+<p id="grade2"></p>
+
+</fieldset>
+</form>
+
+<script>
+
+
+
+
+
+
+document.getElementById("form1").onsubmit=function() {
+       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+	   cat= parseInt(document.querySelector('input[name = "cat"]:checked').value);
+	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+	   here = parseInt(document.querySelector('input[name = "here"]:checked').value);
+		why = parseInt(document.querySelector('input[name = "why"]:checked').value);
+		pop = parseInt(document.querySelector('input[name = "pop"]:checked').value);
+	   	lol = parseInt(document.querySelector('input[name = "lol"]:checked').value);
+	   	sure= parseInt(document.querySelector('input[name = "sure"]:checked').value);
+	   	 ok= parseInt(document.querySelector('input[name = "ok"]:checked').value);
+	   	
+	   	if(variable == 10){
+	   		console.log("thing worked");
+	   	}
+	   	
+	   result = variable + sub + cat + ifstate + here + why + pop + lol + sure + ok;
+	   
+	document.getElementById("grade").innerHTML = result;
+
+ grading = [
+	   {score:(0),feedback:" Wow really? you have no clue?<br/><br/> <img src= 'images/kim.gif'width='250'  />"},
+	      {score:(10),feedback:"Are you even trying?<br/> <br/><img src= 'images/kim.gif'width='250'  />"},
+	   {score:(20),feedback:"Are you even trying?<br/><br/> <img src= 'images/kim.gif' width='250' />"},
+	      {score:(30),feedback:"Are you even trying?<br/><br/> <img src= 'images/kim.gif'width='250'  />"},
+	   {score:(40),feedback:"Are you even trying?<br/><br/> <img src= 'images/kim.gif' width='250' />"},
+	      {score:(50),feedback:"Right on 50<br/> <br/><img src= 'images/50.gif'width='250'  />"},
+	   {score:(60),feedback:"I know you eat McDonalds..<br/><br/> <img src= 'images/mia.gif'width='250'  />"},
+	      {score:(70),feedback:"If this were a test, at least to made a C<br/><br/> <img src= 'images/mia.gif' width='250' />"},
+	   {score:(80),feedback:"You missed two<br/><br/> <img src= 'images/mia.gif'width='250'  />"},
+	      {score:(90),feedback:"One more!<br/> <br/> <img src= 'images/mia.gif'width='250'  />"},
+	   {score:(100),feedback:"Look at you being a pro!<br/> <br/><img src= 'images/dunk.gif' width='250'  />"},
+	   ];
+	  
+for (i=0; i<grading.length; i++) {
+    if(result == grading[i].score) {
+    result2 = grading[i].feedback;
+	  }
+	  }
+
+
+
+document.getElementById("grade2").innerHTML = result2; 
+
+
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+</script>
+
+
+</div>
+</body>
+</html>
+
+
